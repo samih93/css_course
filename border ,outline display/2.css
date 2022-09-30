@@ -1,0 +1,22 @@
+div
+{
+    padding: 10px;
+    width: 400px;
+    background-color: #eee;
+    margin: 10px;
+    height: 30px;
+    
+
+}
+
+.note-1{
+    border-left:6px #e91e63 solid;
+    outline: 10px #eee solid;
+}
+.note-2{
+  visibility: hidden;
+}
+.note-3{
+    border-left:6px #009688 solid;
+    outline: 10px #eee solid;
+}

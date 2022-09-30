@@ -1,0 +1,16 @@
+div{
+    background-color: #ccc;
+    width: 300px;
+    margin: 20px;
+}
+
+.two{
+   
+white-space: nowrap;  
+  overflow: hidden;
+}
+.three{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}

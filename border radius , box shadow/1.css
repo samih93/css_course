@@ -1,0 +1,8 @@
+div{
+    width: 100px;
+    content: "Element";
+    background-color: #ccc;
+    border-radius: 50px;
+    height: 100px;
+    display: inline-block;
+}

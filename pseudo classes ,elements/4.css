@@ -1,0 +1,22 @@
+p
+{
+    counter-increment: p_member;
+    background-color:#ccc ;
+    border-right: 4px solid #f44336;
+    width: 300px;
+    padding: 8px;
+    position: relative;
+    text-align: center;
+
+}
+
+p::before
+{
+    content: counter(p_member);
+    background-color: #f44336;
+    color: white;
+    padding: 8px;
+    top:0;
+    left: 0px;
+    position: absolute;
+}

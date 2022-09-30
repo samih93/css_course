@@ -1,0 +1,23 @@
+p::before{
+    content:"";
+    height: 0;
+    left: -23px;
+    top: 11px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent #e91e63 transparent transparent;
+    position: absolute;
+}
+p{
+    background-color: #dddddd;
+    width: 400px;
+    height: 40px;
+    line-height: 40px;
+    border-left: 3px solid #e91e63;
+    position: relative;
+}
+body{
+    padding: 100px;
+}
+
+

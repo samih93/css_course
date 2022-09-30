@@ -1,0 +1,17 @@
+div{
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: #d4d4d4;
+    height: 30px;
+
+} 
+
+div::first-letter , div::before
+{
+    background-color: red;
+    color: white;
+    left: -10px;
+}
+

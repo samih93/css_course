@@ -1,0 +1,34 @@
+.parent{
+    width: 400px;
+    background-color: #eee;
+    padding: 1%;
+}
+.firstrow
+{
+    text-align: center;
+    background-color: #ddd;
+    margin-bottom: 1%;
+}
+
+.secondrow div{
+    text-align: center;
+    background-color: #ddd;
+    width:calc(98%/3) ;
+    display: inline-block;
+    margin-bottom: 1%;
+
+}
+.thirdrow div{
+    text-align: center;
+    background-color: #ddd;
+    width:calc(99%/2) ;
+    margin-bottom: 1%;
+
+    display: inline-block;
+}
+.foutth div{
+    text-align: center;
+    background-color: #ddd;
+    width:calc(97%/4) ;
+    display: inline-block;
+}

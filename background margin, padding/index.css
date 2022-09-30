@@ -1,0 +1,23 @@
+div{
+    padding: 20px;
+    width: 500px;
+    margin: 20px;
+}
+
+.assign-1-shape-1
+{
+    /* background-color: #8a2be2; */
+    background-color: rgb(138, 43, 226);
+}
+.assign-1-shape-2
+{
+    background-color: rgb(138 43 226 /50% );
+    /* background-color: #c495f0 ; */
+}
+.assign-1-shape-3
+{
+    /* background-color: #f3e9fc ; */
+    background-color: rgb(138 43 226 /10% );
+
+    
+}

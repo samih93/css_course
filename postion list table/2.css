@@ -1,0 +1,97 @@
+body{
+    border: 1px solid #2196f3;
+    padding: 20px;
+    align-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+div{
+    position: relative;
+    padding: 20px;
+    border-top:1px solid red ;
+    border-bottom:1px solid red ;
+    border-left:1px solid #2196f3 ;
+    border-right:1px solid #2196f3 ;
+    background-color: #ccc;
+
+}
+span{
+    position: absolute;
+}
+
+.top-left
+{
+    background-color: #2196f3;
+    color: white;
+    left: 0;
+    top: 0;
+    width: 20px;
+    text-align: center;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+.top-right
+{
+    background-color: #2196f3;
+    color: white;
+    right: 0;
+    top: 0;
+    width: 20px;
+    text-align: center;
+    height: 20px;
+    margin-top: -10px;
+    margin-right: -10px;
+
+}
+
+.top-left::after , .bottom-left::after
+{
+    content: "";
+    background-color:  red;
+    width: 2px;
+    height: 100%;
+    right: 0;
+    position: absolute;
+
+}
+
+
+
+.bottom-left
+{
+    background-color: #2196f3;
+    color: white;
+    left: 0;
+    bottom: 0;
+    width: 20px;
+    text-align: center;
+    height: 20px;
+    margin-bottom: -10px;
+    margin-left: -10px;
+}
+.bottom-right
+{
+    background-color: #2196f3;
+    color: white;
+    right: 0;
+    bottom: 0;
+    width: 20px;
+    text-align: center;
+    height: 20px;
+    margin-bottom: -10px;
+    margin-right: -10px;
+
+}
+
+.top-right::before , .bottom-right::before
+{
+    content: "";
+    background-color:  red;
+    width: 2px;
+    height: 100%;
+    left: 0;
+    position: absolute;
+
+}
