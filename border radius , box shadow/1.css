@@ -1,8 +1,36 @@
 div{
     width: 100px;
-    content: "Element";
-    background-color: #ccc;
+    background-color:white;
     border-radius: 50px;
     height: 100px;
     display: inline-block;
+    box-shadow: -6px -6px #e91e63, 6px 6px #2196f3;
+    margin: 20px;
+    position: relative;
+    border: 2px solid black;
+    counter-increment: div_member;
+}
+
+div::before
+{
+    content: "Element";
+    position: absolute;
+    top: 38%;
+    left: 24%;
+    
+}
+
+div::after
+{
+    content: counter(div_member);
+    background-color: black;
+    color: white;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 33%;
+    margin-top: -18%;
+    border-radius: 30px;
 }
