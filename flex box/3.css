@@ -1,0 +1,32 @@
+.parent
+{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+    background-color: #eeeeee;
+    padding: 10px;
+  
+}
+
+.parent div{
+    background-color: #607d8b;
+    padding: 10px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+.one
+{
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-self: flex-end;
+}
+.six
+{
+    justify-content: start;
+    align-self: flex-start;
+}
