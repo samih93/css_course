@@ -3,30 +3,55 @@
     width: 600px;
     height: 300px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    align-items: flex-start;
     
     background-color: #eeeeee;
     padding: 10px;
+    gap : 0px 2%;
   
 }
 
 .parent div{
     background-color: #607d8b;
-    padding: 10px;
     text-align: center;
+    width: calc(96%/3);
+    color: white;
+}
+
+.one, .three{
     height: 30px;
     line-height: 30px;
 }
-
-.one
+.two , .four,.five,.six
 {
-    justify-content: flex-end;
-    align-items: flex-end;
-    align-self: flex-end;
+    line-height: 150px;
+
 }
+
 .six
 {
-    justify-content: start;
-    align-self: flex-start;
+    order: 1;
+}
+.three
+{
+    order:2
+}
+.four{
+ 
+    order:3
+}
+
+.five{
+    order: 4;
+}
+.two
+
+{
+    order: 5;
+}
+.one
+{
+    order: 6;
+    align-self: flex-end;
 }

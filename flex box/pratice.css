@@ -1,0 +1,42 @@
+.flex-container
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: cyan;
+gap: 10px 20px;
+    padding: 10px;
+}
+
+.firstrow
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.secondrow
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.one{
+    order: 2;
+    flex: 3 0px;
+}
+.two
+{order: 1;}
+
+.three
+{
+    width: 60%;
+}
+.flex-container div:not(.firstrow,.secondrow){
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
