@@ -2,7 +2,7 @@
 {
     width: 600px;
     height: 300px;
-    display: flex;
+    display: flex; 
     flex-direction: row;
     background-color: #eeeeee;
     padding: 10px;
