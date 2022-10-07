@@ -1,0 +1,53 @@
+
+.parent
+{
+  background-color: #eeeeee;
+  display: grid;
+  height: 154vh;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: 26% 1fr 1fr 23%;
+  gap: 10px 10px;
+}
+
+.parent section
+{
+  border-bottom: 3px solid #ff3d00;
+  background-color: white;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 20px;
+}
+.position
+{
+  color: grey ;
+}
+.sec1
+{
+  grid-area: 1 / span 2;
+}
+
+
+.sec3 ,.sec5 , .sec8
+{
+  background-color: black !important;
+  color: white;
+}
+.sec3{
+  /* grid-row: 1 /4 ;
+ grid-column: 4 / 4; */
+ grid-area:  1 / 4 / 4 / 4;
+}
+
+.sec4
+{
+  grid-area: 2 / 1 /  4 /1;
+}
+
+.sec5{
+  grid-area: 2 / 2 / 2 /4;
+}
+
+.sec6
+{
+  grid-area: 3 / 2/ 3 /4;
+}
